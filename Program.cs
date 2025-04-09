@@ -2,7 +2,7 @@
 {
     static void Main()
     {
-        int ingressoVIP = 'x', ingressoPrioritario = 'y', ingressoComum = 'z', ingressoTotal = ingressoComum + ingressoPrioritario + ingressoVIP, controlador;
+        int ingressoVIP = 'x', ingressoPrioritario = 'y', ingressoComum = 'z', ingressoTotal = ingressoComum + ingressoPrioritario + ingressoVIP, opcao;
 
         do{
             System.Console.WriteLine("---------------------------------------");
@@ -13,9 +13,8 @@
             System.Console.WriteLine("5. Sair");
             System.Console.WriteLine("---------------------------------------");
             
-            int opcao = int.Parse(Console.ReadLine());
-            controlador = opcao;
-
+            opcao = int.Parse(Console.ReadLine());
+            
             switch(opcao){
                 case 1:
                     break;
@@ -30,20 +29,40 @@
                     break;
 
                 case 5:
+                    Console.Clear();
+                    System.Console.WriteLine("---------------------------------------");
+                    System.Console.WriteLine("Sair[S/N]");
+                    System.Console.WriteLine("---------------------------------------");
+                    char sair = char.Parse(Console.ReadLine());
+                    
+                    if(sair == 'S' || sair == 's'){
+                        Console.Clear();
+                        System.Console.WriteLine("---------------------------------------");
+                        System.Console.WriteLine("Saindo");
+                        System.Console.WriteLine("---------------------------------------");
+                    } else if(sair == 'N' || sair == 'n'){
+                        Console.Clear();
+                        System.Console.WriteLine("---------------------------------------");
+                        System.Console.WriteLine("Voltando para o menu");
+                        System.Console.WriteLine("---------------------------------------");
+                        Console.ReadLine();
+                        Console.Clear();
+                        opcao = 0;
+                    }
                     break;
                 
                 default:
                     Console.Clear();
-                    System.Console.WriteLine("-----------------------------");
+                    System.Console.WriteLine("---------------------------------------");
                     System.Console.WriteLine("A opção que digitou não exite \nConfira se digitou certo");
-                    System.Console.WriteLine("-----------------------------");
+                    System.Console.WriteLine("---------------------------------------");
                     System.Console.WriteLine("Aperte enter para voltar");
-                    System.Console.WriteLine("-----------------------------");
+                    System.Console.WriteLine("---------------------------------------");
                     Console.ReadLine();
                     Console.Clear();
 
                     break;
             }
-        } while(controlador != 5);
+        } while(opcao != 5);
     }
 }
