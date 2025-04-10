@@ -2,7 +2,8 @@
 {
     static void Main()
     {
-        int ingressoVIP = 20, ingressoPrioritario = 30, ingressoComum = 50, total = ingressoComum + ingressoPrioritario + ingressoVIP, opcao;
+        int ingressoVIP = 20, ingressoPrioritario = 30, ingressoComum = 50, ingressoComumPresente = 0, ingressoPrioritarioPresente = 0, ingressoVIPresente = 0, opcao, quantidadePessoas = 0, idadeEntrou = 0;
+        string nomeEntrou = "", tipoIngressoEntrou = "";
 
         do{
             System.Console.WriteLine("---------------------------------------");
@@ -20,26 +21,32 @@
                     Console.Clear();
                     System.Console.WriteLine("---------------------------------------");
                     System.Console.Write("Qual seu nome: ");
-                    string nomeEntrou = Console.ReadLine();
+                    nomeEntrou = Console.ReadLine();
                     System.Console.Write("Qual sua idade: ");
-                    int idadeEntrou = int.Parse(Console.ReadLine());
+                    idadeEntrou = int.Parse(Console.ReadLine());
                     System.Console.Write("Qual o tipo do ingresso: ");
-                    string tipoIngresso = Console.ReadLine();
+                    tipoIngressoEntrou = Console.ReadLine();
 
-                    if(tipoIngresso == "Comum" || tipoIngresso == "comum"){
+                    if(tipoIngressoEntrou == "Comum" || tipoIngressoEntrou == "comum"){
                         System.Console.Write("Código do ingresso [4 digitos]: ");
                         int codigoIngressoEntrou = int.Parse(Console.ReadLine());
                         ingressoComum--;
+                        ingressoComumPresente++;
+                        quantidadePessoas++;
 
-                    } else if(tipoIngresso == "Prioritario" || tipoIngresso == "prioritario"){
+                    } else if(tipoIngressoEntrou == "Prioritario" || tipoIngressoEntrou == "prioritario"){
                         System.Console.Write("Código do ingresso [4 digitos]: ");
                         int codigoIngressoEntrou = int.Parse(Console.ReadLine());
                         ingressoPrioritario--;
+                        ingressoPrioritarioPresente++;
+                        quantidadePessoas++;
 
-                    } else if(tipoIngresso == "VIP" || tipoIngresso == "vip"){
+                    } else if(tipoIngressoEntrou == "VIP" || tipoIngressoEntrou == "vip"){
                         System.Console.Write("Código do ingresso [4 digitos]: ");
                         int codigoIngressoEntrou = int.Parse(Console.ReadLine());
                         ingressoVIP--;
+                        ingressoVIPresente++;
+                        quantidadePessoas++;
 
                     } else {
                         System.Console.WriteLine("Tipo de ingresso inexistente");
@@ -59,6 +66,19 @@
                 
                 case 4:
                     System.Console.WriteLine("---------------------------------------");
+                    System.Console.WriteLine($"Total de pessoas presentes: {quantidadePessoas}");
+                    System.Console.WriteLine("---------------------------------------");
+                    System.Console.WriteLine($"Quantidade de pessoas por categoria: \nComum: {ingressoComumPresente} \nPrioritário: {ingressoPrioritarioPresente} \nVIP: {ingressoVIPresente}");
+                    System.Console.WriteLine("---------------------------------------");
+                    System.Console.WriteLine($"Percentual de pessoas por categoria: \nComum: {ingressoComumPresente / quantidadePessoas} \nPrioritário: {ingressoPrioritarioPresente / quantidadePessoas} \nVIP: {ingressoVIPresente / quantidadePessoas}");
+                    System.Console.WriteLine("---------------------------------------");
+                    System.Console.WriteLine($"Ingressos disponíveis por categoria: \nComum: {ingressoComum} \nPrioritário: {ingressoPrioritario} \nVIP: {ingressoVIP}");
+                    System.Console.WriteLine("---------------------------------------");
+                    System.Console.WriteLine($"Dados da última pessoa a entrar: \nNome: {nomeEntrou} \nIdade: {idadeEntrou} \nNúmero do ingresso: {tipoIngressoEntrou}");
+                    System.Console.WriteLine("---------------------------------------");
+                    System.Console.WriteLine("Aperte enter para voltar ao menu");
+                    Console.ReadLine();
+                    Console.Clear();
 
                     break;
 
