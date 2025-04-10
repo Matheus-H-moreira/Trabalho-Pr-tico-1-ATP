@@ -2,8 +2,8 @@
 {
     static void Main()
     {
-        int ingressoVIP = 20, ingressoPrioritario = 30, ingressoComum = 50, ingressoComumPresente = 0, ingressoPrioritarioPresente = 0, ingressoVIPresente = 0, opcao, quantidadePessoas = 0, idadeEntrou = 0;
-        string nomeEntrou = "", tipoIngressoEntrou = "";
+        int ingressoVIP = 20, ingressoPrioritario = 30, ingressoComum = 50, ingressoComumPresente = 0, ingressoPrioritarioPresente = 0, ingressoVIPresente = 0, opcao, quantidadePessoas = 0, idadeEntrou = 0, idadeSaiu = 0;
+        string nomeEntrou = "", tipoIngressoEntrou = "", nomeSaiu = "", tipoIngressoSaiu = "";
 
         do{
             System.Console.WriteLine("---------------------------------------");
@@ -75,6 +75,8 @@
                     System.Console.WriteLine($"Ingressos disponíveis por categoria: \nComum: {ingressoComum} \nPrioritário: {ingressoPrioritario} \nVIP: {ingressoVIP}");
                     System.Console.WriteLine("---------------------------------------");
                     System.Console.WriteLine($"Dados da última pessoa a entrar: \nNome: {nomeEntrou} \nIdade: {idadeEntrou} \nNúmero do ingresso: {tipoIngressoEntrou}");
+                    System.Console.WriteLine("---------------------------------------");
+                    System.Console.WriteLine($"Dados da última pessoa a entrar: \nNome: {nomeSaiu} \nIdade: {idadeSaiu} \nNúmero do ingresso: {tipoIngressoSaiu}");
                     System.Console.WriteLine("---------------------------------------");
                     System.Console.WriteLine("Aperte enter para voltar ao menu");
                     Console.ReadLine();
