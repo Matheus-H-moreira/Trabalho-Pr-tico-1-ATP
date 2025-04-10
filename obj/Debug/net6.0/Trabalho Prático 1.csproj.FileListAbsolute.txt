@@ -13,3 +13,18 @@ C:\Users\Usuario\OneDrive - sga.pucminas.br\Algoritmos e Técnicas de Programaç
 C:\Users\Usuario\OneDrive - sga.pucminas.br\Algoritmos e Técnicas de Programação\Trabalho Prático 1\obj\Debug\net6.0\Trabalho Prático 1.pdb
 C:\Users\Usuario\OneDrive - sga.pucminas.br\Algoritmos e Técnicas de Programação\Trabalho Prático 1\obj\Debug\net6.0\Trabalho Prático 1.genruntimeconfig.cache
 C:\Users\Usuario\OneDrive - sga.pucminas.br\Algoritmos e Técnicas de Programação\Trabalho Prático 1\obj\Debug\net6.0\ref\Trabalho Prático 1.dll
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\bin\Debug\net6.0\Trabalho Prático 1.exe
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\bin\Debug\net6.0\Trabalho Prático 1.deps.json
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\bin\Debug\net6.0\Trabalho Prático 1.runtimeconfig.json
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\bin\Debug\net6.0\Trabalho Prático 1.dll
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\bin\Debug\net6.0\Trabalho Prático 1.pdb
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\obj\Debug\net6.0\Trabalho Prático 1.csproj.AssemblyReference.cache
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\obj\Debug\net6.0\Trabalho Prático 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\obj\Debug\net6.0\Trabalho Prático 1.AssemblyInfoInputs.cache
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\obj\Debug\net6.0\Trabalho Prático 1.AssemblyInfo.cs
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\obj\Debug\net6.0\Trabalho Prático 1.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\obj\Debug\net6.0\Trabalho Prático 1.dll
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\obj\Debug\net6.0\refint\Trabalho Prático 1.dll
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\obj\Debug\net6.0\Trabalho Prático 1.pdb
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\obj\Debug\net6.0\Trabalho Prático 1.genruntimeconfig.cache
+C:\Users\pedro\Desktop\trabalho atp\Trabalho-Pr-tico-1-ATP\obj\Debug\net6.0\ref\Trabalho Prático 1.dll
