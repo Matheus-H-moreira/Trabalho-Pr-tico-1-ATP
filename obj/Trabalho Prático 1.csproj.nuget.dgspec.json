@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\OneDrive - sga.pucminas.br\\Algoritmos e Técnicas de Programação\\Trabalho Prático 1\\Trabalho Prático 1.csproj": {}
+    "C:\\Users\\pedro\\Desktop\\trabalho atp\\Trabalho-Pr-tico-1-ATP\\Trabalho Prático 1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\OneDrive - sga.pucminas.br\\Algoritmos e Técnicas de Programação\\Trabalho Prático 1\\Trabalho Prático 1.csproj": {
+    "C:\\Users\\pedro\\Desktop\\trabalho atp\\Trabalho-Pr-tico-1-ATP\\Trabalho Prático 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive - sga.pucminas.br\\Algoritmos e Técnicas de Programação\\Trabalho Prático 1\\Trabalho Prático 1.csproj",
+        "projectUniqueName": "C:\\Users\\pedro\\Desktop\\trabalho atp\\Trabalho-Pr-tico-1-ATP\\Trabalho Prático 1.csproj",
         "projectName": "Trabalho Prático 1",
-        "projectPath": "C:\\Users\\Usuario\\OneDrive - sga.pucminas.br\\Algoritmos e Técnicas de Programação\\Trabalho Prático 1\\Trabalho Prático 1.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\OneDrive - sga.pucminas.br\\Algoritmos e Técnicas de Programação\\Trabalho Prático 1\\obj\\",
+        "projectPath": "C:\\Users\\pedro\\Desktop\\trabalho atp\\Trabalho-Pr-tico-1-ATP\\Trabalho Prático 1.csproj",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pedro\\Desktop\\trabalho atp\\Trabalho-Pr-tico-1-ATP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
