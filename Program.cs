@@ -2,7 +2,7 @@
 {
     static void Main()
     {
-        int ingressoVIP = 'x', ingressoPrioritario = 'y', ingressoComum = 'z', ingressoTotal = ingressoComum + ingressoPrioritario + ingressoVIP, opcao;
+        int ingressoVIP = 20, ingressoPrioritario = 30, ingressoComum = 50, total = ingressoComum + ingressoPrioritario + ingressoVIP, opcao;
 
         do{
             System.Console.WriteLine("---------------------------------------");
@@ -17,6 +17,38 @@
             
             switch(opcao){
                 case 1:
+                    Console.Clear();
+                    System.Console.WriteLine("---------------------------------------");
+                    System.Console.Write("Qual seu nome: ");
+                    string nomeEntrou = Console.ReadLine();
+                    System.Console.Write("Qual sua idade: ");
+                    int idadeEntrou = int.Parse(Console.ReadLine());
+                    System.Console.Write("Qual o tipo do ingresso: ");
+                    string tipoIngresso = Console.ReadLine();
+
+                    if(tipoIngresso == "Comum" || tipoIngresso == "comum"){
+                        System.Console.Write("Código do ingresso [4 digitos]: ");
+                        int codigoIngressoEntrou = int.Parse(Console.ReadLine());
+                        ingressoComum--;
+
+                    } else if(tipoIngresso == "Prioritario" || tipoIngresso == "prioritario"){
+                        System.Console.Write("Código do ingresso [4 digitos]: ");
+                        int codigoIngressoEntrou = int.Parse(Console.ReadLine());
+                        ingressoPrioritario--;
+
+                    } else if(tipoIngresso == "VIP" || tipoIngresso == "vip"){
+                        System.Console.Write("Código do ingresso [4 digitos]: ");
+                        int codigoIngressoEntrou = int.Parse(Console.ReadLine());
+                        ingressoVIP--;
+
+                    } else {
+                        System.Console.WriteLine("Tipo de ingresso inexistente");
+                    }
+                    System.Console.WriteLine("Seja bem-vindo! ");
+                    System.Console.WriteLine("---------------------------------------");
+                    Console.ReadLine();
+                    Console.Clear();
+
                     break;
                 
                 case 2:
@@ -41,6 +73,8 @@
                     break;
                 
                 case 4:
+                    System.Console.WriteLine("---------------------------------------");
+
                     break;
 
                 case 5:
