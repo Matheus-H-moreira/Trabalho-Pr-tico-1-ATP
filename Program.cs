@@ -105,6 +105,7 @@
                         Console.Clear();
                         opcao = 0;
                     }
+                    
                     break;
                 
                 default:
