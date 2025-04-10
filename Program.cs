@@ -20,6 +20,21 @@
                     break;
                 
                 case 2:
+                    Console.Clear();
+                    System.Console.WriteLine("---------------------------------------");
+                    System.Console.Write("Digite seu nome: ");
+                    Console.ReadLine();
+                    System.Console.Write("Digite sua idade: ");
+                    Console.ReadLine();
+                    System.Console.Write("Digite o número do ingresso: ");
+                    Console.ReadLine();
+                    System.Console.Write("Digite o tipo do ingresso: ");
+                    Console.ReadLine();
+                    Console.Clear();
+                    System.Console.WriteLine("Obrigado pela presença, volte sempre! :)");
+                    Console.ReadLine();
+                    Console.Clear();
+                    
                     break;
 
                 case 3:
