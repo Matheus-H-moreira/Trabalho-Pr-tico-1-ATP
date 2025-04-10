@@ -13,19 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\pedro\\Desktop\\trabalho atp\\Trabalho-Pr-tico-1-ATP\\Trabalho Prático 1.csproj",
+      "projectUniqueName": "C:\\Users\\pedro\\Desktop\\trabalho\\Trabalho-Pr-tico-1-ATP\\Trabalho Prático 1.csproj",
       "projectName": "Trabalho Prático 1",
-      "projectPath": "C:\\Users\\pedro\\Desktop\\trabalho atp\\Trabalho-Pr-tico-1-ATP\\Trabalho Prático 1.csproj",
+      "projectPath": "C:\\Users\\pedro\\Desktop\\trabalho\\Trabalho-Pr-tico-1-ATP\\Trabalho Prático 1.csproj",
       "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pedro\\Desktop\\trabalho atp\\Trabalho-Pr-tico-1-ATP\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive - sga.pucminas.br\\Algoritmos e Técnicas de Programação\\Trabalho Prático 1\\Trabalho-Pr-tico-1-ATP\\Trabalho Prático 1.csproj",
-      "projectName": "Trabalho Prático 1",
-      "projectPath": "C:\\Users\\Usuario\\OneDrive - sga.pucminas.br\\Algoritmos e Técnicas de Programação\\Trabalho Prático 1\\Trabalho-Pr-tico-1-ATP\\Trabalho Prático 1.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\OneDrive - sga.pucminas.br\\Algoritmos e Técnicas de Programação\\Trabalho Prático 1\\Trabalho-Pr-tico-1-ATP\\obj\\",
->>>>>>> matheus
+      "outputPath": "C:\\Users\\pedro\\Desktop\\trabalho\\Trabalho-Pr-tico-1-ATP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -70,5 +62,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\pedro\\Desktop\\trabalho\\Trabalho-Pr-tico-1-ATP\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

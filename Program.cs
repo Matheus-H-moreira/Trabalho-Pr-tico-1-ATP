@@ -55,13 +55,13 @@
                     Console.Clear();
                     System.Console.WriteLine("---------------------------------------");
                     System.Console.Write("Digite seu nome: ");
-                    Console.ReadLine();
+                    string nome=Console.ReadLine();
                     System.Console.Write("Digite sua idade: ");
-                    Console.ReadLine();
-                    System.Console.Write("Digite o número do ingresso: ");
-                    Console.ReadLine();
+                    int idade=int.Parse(Console.ReadLine());
+                    System.Console.Write("Código do ingresso [4 digitos]");
+                    int codigoIngresso=int.Parse(Console.ReadLine());
                     System.Console.Write("Digite o tipo do ingresso: ");
-                    Console.ReadLine();
+                    string tipoIngreso=Console.ReadLine();
                     Console.Clear();
                     System.Console.WriteLine("Obrigado pela presença, volte sempre! :)");
                     Console.ReadLine();
@@ -70,6 +70,15 @@
                     break;
 
                 case 3:
+                    Console.Clear();
+                    System.Console.WriteLine("---------------------------------------");
+                    System.Console.WriteLine("Restam os seguintes ingressos: ");
+                    System.Console.WriteLine(ingressoComum+" Ingressos Comuns");
+                    System.Console.WriteLine(ingressoPrioritario+ " Ingressos Prioritários");
+                    System.Console.WriteLine(ingressoVIP+" Ingressos VIPS");
+                    System.Console.WriteLine("---------------------------------------");
+                    Console.ReadLine();
+                    Console.Clear();
                     break;
                 
                 case 4:
