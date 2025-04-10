@@ -2,7 +2,7 @@
 {
     static void Main()
     {
-        int ingressoVIP = 20, ingressoPrioritario = 30, ingressoComum = 50, opcao;
+        int ingressoVIP = 20, ingressoPrioritario = 30, ingressoComum = 50, total = ingressoComum + ingressoPrioritario + ingressoVIP, opcao;
 
         do{
             System.Console.WriteLine("---------------------------------------");
@@ -20,25 +20,25 @@
                     Console.Clear();
                     System.Console.WriteLine("---------------------------------------");
                     System.Console.Write("Qual seu nome: ");
-                    string nome = Console.ReadLine();
+                    string nomeEntrou = Console.ReadLine();
                     System.Console.Write("Qual sua idade: ");
-                    int idade = int.Parse(Console.ReadLine());
+                    int idadeEntrou = int.Parse(Console.ReadLine());
                     System.Console.Write("Qual o tipo do ingresso: ");
                     string tipoIngresso = Console.ReadLine();
 
                     if(tipoIngresso == "Comum" || tipoIngresso == "comum"){
                         System.Console.Write("Código do ingresso [4 digitos]: ");
-                        int codigoIngresso = int.Parse(Console.ReadLine());
+                        int codigoIngressoEntrou = int.Parse(Console.ReadLine());
                         ingressoComum--;
 
                     } else if(tipoIngresso == "Prioritario" || tipoIngresso == "prioritario"){
                         System.Console.Write("Código do ingresso [4 digitos]: ");
-                        int codigoIngresso = int.Parse(Console.ReadLine());
+                        int codigoIngressoEntrou = int.Parse(Console.ReadLine());
                         ingressoPrioritario--;
 
                     } else if(tipoIngresso == "VIP" || tipoIngresso == "vip"){
                         System.Console.Write("Código do ingresso [4 digitos]: ");
-                        int codigoIngresso = int.Parse(Console.ReadLine());
+                        int codigoIngressoEntrou = int.Parse(Console.ReadLine());
                         ingressoVIP--;
 
                     } else {
@@ -58,6 +58,8 @@
                     break;
                 
                 case 4:
+                    System.Console.WriteLine("---------------------------------------");
+
                     break;
 
                 case 5:
